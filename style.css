@@ -1,0 +1,294 @@
+/** Add any CSS you need to this file. */
+
+.nav-container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #D6EDFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.header h1 {
+  color: #395E66;
+  font-family: 'Sofia', cursive;
+  font-size: 4vw;
+  margin: 0 auto;
+}
+
+.header h3 {
+  color: #395E66;
+  font-family: 'Inter', sans-serif;
+  font-size: 1vw;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  background-color: #537232;
+  display: flex;
+  justify-content: space-evenly;
+} 
+
+.nav-link {
+  color: aliceblue;
+  width: 15vw;
+  text-align: center;
+  padding: 0.5vw;
+}
+
+.nav-link h3 {
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto;
+}
+
+body {
+  display: inline;
+}
+
+.w3-main {
+  margin-left:200px;
+}
+
+.w3-button {
+  color: #537232;
+  font-family: 'Inter', sans-serif;
+}
+
+.sidebar-header {
+  padding-left: 8%;
+  color: #537232;
+  font-family: 'Inter', sans-serif;
+}
+
+.body-container {
+  width: 100%;
+  margin-top: 15vw;
+  display: flex;
+}
+
+.home-content {
+  display: flex;
+  padding: 0 3vw 0 3vw;
+}
+
+.home-content div {
+  background-color: #D6EDFF;
+  flex-direction: column;
+  justify-content: stretch;
+  padding: 5vw 5vw 5vw 5vw;
+  text-align: center;
+
+  font-family: 'Inter', sans-serif;
+}
+
+.home-content div p {
+  font-size: 1.7vw;
+  color: #274147 ;
+}
+
+.content-header {
+  padding-left: 5%;
+  color: #537232;
+  font-family: 'Inter', sans-serif;
+}
+
+.column-container{
+  display:flex;
+  justify-content: flex-start;
+}
+
+.column-container div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#firstColumn {
+  padding: 0 4% 2% 8%;
+}
+
+#secondColumn {
+  padding: 0 8% 2% 4%;
+}
+
+.content-column div {
+  display: inline-flex;
+}
+
+.content-column div img {
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.content-column div div{
+  background-color: #E5F3FF;
+}
+
+.content-column div div * {
+  font-family: 'Inter', sans-serif;
+  color: #274147;
+}
+
+.content-column div div h4{
+  margin: 5% 0 0 0;
+}
+
+.content-column div div h6 {
+  margin: 0 0 5% 0;
+}
+
+.content-column div div div  {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0;
+}
+
+.content-column div div div h6 {
+  flex-grow: 1;
+  margin: 0;
+}
+
+.footer-container {
+  color: aliceblue;
+  background-color: #537232;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.footer-container div {
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.footer-logo h3 {
+  font-family: 'Sofia', cursive;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.footer-container h5 {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+}
+
+.footer-container h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+}
+
+.form {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+form {
+  font-family: 'Inter', sans-serif;
+  padding-left: 15px;
+  padding-bottom: 25px;
+}
+
+input, textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.footer-form  {
+  size: 5vw;
+}
+
+@media screen and (min-width: 850px) {
+  h2 {
+    font-size: 1.8;
+  }
+  h3 {
+    font-size: 1.4vw;
+  }
+  h4 {
+    font-size: 1.4vw;
+  }
+  h5 {
+    font-size: 1.1vw;
+  }
+  h6 {
+    font-size: 0.9vw;
+  }
+  p {
+    font-size: 1vw;
+  }
+  .column-container div {
+    padding: 2% 8% 2% 8%;
+  }
+  .w3-sidebar {
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 849px) {
+  h2 {
+    font-size: 2.2;
+  }
+  h3 {
+    font-size: 2.4vw;
+  }
+  h4 {
+    font-size: 2.5vw;
+  }
+  h5 {
+    font-size: 2.1vw;
+  }
+  h6 {
+    font-size: 1.9vw;
+  }
+  p {
+    font-size: 2vw;
+  }
+  .column-container div {
+    padding: 4% 1% 4% 1%;
+  }
+  .w3-button {
+    font-size: 2.5vw;
+  }
+  .content-column div div{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .w3-sidebar {
+    max-height: 325px;
+  }
+}
+
+.form-container{
+  align-items: center;
+}
+
+fieldset {
+  background-color: #E5F3FF;
+  border: 1px solid #537232;
+  border-radius: 10px;
+}
+
+legend {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 17px;
+}
+
+
+  
